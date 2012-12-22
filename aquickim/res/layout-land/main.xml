@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/viewFlipper"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent">
+	<TableLayout 
+		android:id="@+id/TableLayout01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" android:stretchColumns="0,1">
+			<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button	android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg1" android:text="Send QuickMsg 1" />
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg2" android:text="Send QuickMsg 2" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg3" android:text="Send QuickMsg 3" />
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg4" android:text="Send QuickMsg 4" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg5" android:text="Send QuickMsg 5" />	
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg6" android:text="Send QuickMsg 6" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow04" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView  android:layout_column="0" android:layout_span="2" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current contact:" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow05" android:layout_width="fill_parent" android:layout_height="wrap_content">				
+				<TextView android:layout_column="0" android:layout_span="2" android:text="tvContact" android:id="@+id/tvContact" android:layout_width="fill_parent" android:typeface="normal" android:textSize="28sp" android:layout_gravity="fill_horizontal" android:layout_height="wrap_content"/>
+			</TableRow>
+		</TableLayout>
+	<TableLayout 
+		android:id="@+id/TableLayout02" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:stretchColumns="0,1">
+			<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button	android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg1" android:text="Send QuickMsg 1" />
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg2" android:text="Send QuickMsg 2" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg3" android:text="Send QuickMsg 3" />
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg4" android:text="Send QuickMsg 4" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg5" android:text="Send QuickMsg 5" />	
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg6" android:text="Send QuickMsg 6" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow04" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView android:layout_column="0" android:layout_span="2" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current contact:" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow05" android:layout_width="fill_parent" android:layout_height="wrap_content">				
+				<TextView android:layout_column="0" android:layout_span="2" android:text="tvContact" android:id="@+id/tvContact" android:layout_width="fill_parent" android:typeface="normal" android:textSize="28sp" android:layout_gravity="fill_horizontal" android:layout_height="wrap_content"/>
+			</TableRow>
+		</TableLayout>
+		<TableLayout 
+		android:id="@+id/TableLayout03" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:stretchColumns="0,1">
+			<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button	android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg1" android:text="Send QuickMsg 1" />
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg2" android:text="Send QuickMsg 2" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg3" android:text="Send QuickMsg 3" />
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg4" android:text="Send QuickMsg 4" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg5" android:text="Send QuickMsg 5" />	
+				<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/quickmsg6" android:text="Send QuickMsg 6" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow04" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView android:layout_column="0" android:layout_span="2" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current contact:" />
+			</TableRow>
+			<TableRow android:id="@+id/TableRow05" android:layout_width="fill_parent" android:layout_height="wrap_content">				
+				<TextView android:id="@+id/tvContact" 
+						android:layout_column="0" android:layout_span="2"
+						android:text="tvContact" android:layout_width="fill_parent" 
+						android:typeface="normal" android:textSize="28sp" android:layout_gravity="fill_horizontal" android:layout_height="wrap_content"/>
+			</TableRow>
+		</TableLayout>
+</ViewFlipper>

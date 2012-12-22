@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aquickim">aquickim!</string>
+    <string name="app_name">aquickim</string>
+	<string name="businesscard_app">Business Card</string>
+    <string name="button_pick_contact">Pick Contact</string>
+    <string name="text_view_current_contact">QuickIM Contact:</string>
+    <string name="text_view_contact_selection">None selected</string>
+    <string name="alert_message">SMS message arrived</string>
+    
+    <string name="voice_recognition">App/Voice Recognition</string>
+    <string name="voice_recognition_prompt">This activity demonstrates the voice recognition APIs.</string>
+    <string name="speak_button">Speak!</string>
+    <string name="voice_recognition_results">Results:</string>    
+</resources>
